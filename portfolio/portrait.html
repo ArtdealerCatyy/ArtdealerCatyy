@@ -28,7 +28,7 @@
 <li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
 <li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 <li class="nav-item"><a class="nav-link" href="netart.html">netart</a></li>
-<li class="nav-item"><a class="nav-link" href="pjs5.html">pjs5</a></li>
+<li class="nav-item"><a class="nav-link" href="portrait.html">portrait</a></li>
 </ul>
 
 </div>
@@ -40,15 +40,127 @@
 <p></p>
 <img src="selfportrait.jpg" alt="mashup" width="530"
 
-<p></p>
-<a href="https://artdealercatyy.github.io/netart/" target="_blank">click here</a> 
+<p></p> 
 <p></p>
 
 <h1>using p5js to make a self portrait</h1>
 <p>October 27, 2024</p>
 <hr>
 
-<p>I decided to add pigs in my game because I really like them. The first  2 levels are easier just start like that and then after 3rd level is to get people confused on where it is. The purpose is to catch the pig to enter a pig party. </p>
+<p>For this project I worked with p5js to create a self portrait of me. I decided to add come purple ovals in the back to add decor.</p>
+<p></p>
+The code for this:
+<p></p>
+function setup() {
+createCanvas(600, 600);
+background(100);
+}
+function draw() {
+<p></p>
+//background
+  stroke(1450, 1040, 710,345)
+  fill(175, 100, 220);
+ellipse(125,50,40,100) 
+ellipse(50,100,60,100)
+  ellipse(425,50,40,100) 
+  ellipse(525,100,60,100) 
+  <p></p>
+  //hair
+  stroke(150, 100, 70)
+  fill(150, 100, 70);
+circle(280, 253, 400);
+rect(80, 240, 400, 500);
+ <p></p>
+ fill(255, 224, 189)
+  rect(230,490,100,100)
+
+  <p></p>
+  // Face
+  fill(255, 224, 189); // Skin color
+ellipse(278, 300, 300, 400);
+<p></p>
+  
+//bangs
+fill(150, 100, 70);  
+rect(170, 100, 220, 150);
+  fill(150, 100, 70);  
+rect(149, 100, 200, 150); 
+ fill(150, 100, 70);  
+rect(149, 100, 257, 150);
+<p></p>
+  
+strokeWeight(5);
+  line(142, 180, 105, 689);
+ <p></p> 
+//top lid
+  stroke(0)
+  ellipse(350,298,75,40)
+  ellipse(210,298,75,40)
+ <p></p> 
+//white eye 
+stroke(500)
+  fill(500)
+ ellipse(210,300,70,40)
+  ellipse(350,300,70,40) 
+<p></p>  
+//eyes
+    stroke(0,128,0)
+  fill(0,128,0)
+  ellipse(210,300,40,40)
+  ellipse(350,300,40,40)
+<p></p>  
+//pupil
+  stroke(0)
+  fill(0)
+  ellipse(210,300,23,23)
+  ellipse(350,300,23,23)
+<p></p>  
+//lashes left eye
+  rect(200,265,0.01,10)
+  rect(210,265,0.01,10)
+  rect(220,265,0.01,10)
+  rect(230,268,0.01,10)
+  rect(240,273,0.01,10)
+  rect(190,265,0.01,14)
+  rect(180,265,0.01,19)
+  rect(170,265,0.01,27)
+ <p></p> 
+// lashes right eye 
+  rect(340,265,0.01,10)
+  rect(350,265,0.01,10)
+  rect(360,265,0.01,10)
+  rect(370,261,0.01,20)
+  rect(330,267,0.01,10)
+  rect(320,270,0.01,13)
+  rect(380,265,0.01,19)
+  rect(390,265,0.01,27)
+<p></p> 
+//bang things  
+  stroke(255, 224, 189)
+   rect(200,200,0.5,50)
+   rect(250,200,1,50)
+  rect(280,200,1,50)
+  rect(300,200,1,50)
+  rect(350,200,1,50)
+<p></p>
+//mouth
+  stroke(55, 28, 49)
+  fill(255, 128, 149);
+  arc(280, 400, 70, 50, 0, PI);
+<p></p>
+ // earrings
+ stroke(1)
+   fill(2);
+ellipse(425,390,10,100) 
+ellipse(125,390,10,100) 
+<p></p>
+  //shoulders
+ ellipse(160,700,200,300) 
+ ellipse(405,700,200,300) 
+ rect(205,559,150,50)
+<p></p>  
+  
+}
 
 <div class="bg-success p-3"></div>
 
